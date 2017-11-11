@@ -1,0 +1,345 @@
+
+/* all pages*/
+*{
+  box-sizing: border-box;
+}
+
+body  {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 35px;
+  color: #666666;
+  background: url("../images/regal.png");
+}
+#introduction{
+    height:82px;
+    width: 100%;
+    margin: 0;
+    text-decoration: none;
+    color: #4aaaa5;
+    background: #ffffff;
+    border-bottom: 1.5px solid #cccccc;
+  }
+ #closing {
+    clear:both;
+    background: #777777;
+    width: 100%;
+    height:60px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: #ffffff;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+ }
+  .container {
+      max-width: 960px;
+      margin: 0 auto;
+      clear: both;
+  }
+  h1,
+  h2 {
+    margin-top: 10px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-weight: bold;
+    color: #4aaaa5;
+  }
+  
+  h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 1.5px solid#dddddd;
+  }
+  nav {
+    float: right;
+    margin-top: 25px;
+  }
+  
+  nav a {
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #777777;
+    text-decoration: none;
+    border-left: 1px solid #dddddd;
+  }
+
+
+  .sidebar {
+    float: right;
+    z-index: inherit inherit;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  
+  .sidebar h2 {
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    border-bottom: 2px solid #dddddd;
+  }
+  
+  .social {
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+
+
+/* About page*/
+  
+  #My_Name{
+    float: left;
+    z-index: inherit inherit;
+    width: 300px;
+    height: 80px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    line-height: 90px;
+    color: #ffffff;
+    background: #4aaaa5;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+  #main-container {
+    padding-top: 45px;                   
+  }
+  p {
+    padding-top: 5px;
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 20px;
+    margin: 0 0 30px 0;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }  
+
+  #bio-image {
+    float: left;
+    z-index: inherit inherit;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+  }
+  /* contact page */
+
+  fieldset {
+    float: left;
+    z-index: inherit inherit;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+    background: #ffffff;
+  }
+  input,
+  textarea {
+    margin-top: 10px;
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    width: 100%;
+  }
+  textarea {
+    height: 200px;  
+  }
+  label{
+    margin-top:15px;
+  }
+  input[type=submit] {
+    float: left;
+    width: 80px;
+    height: 50px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5;
+  }
+/* portfolio page*/
+ #portfolio-image {
+  width: 250px;
+  height: auto;
+  margin:30px;
+  border: 1px solid #dddddd;
+ }
+
+ #project{
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 30px;
+  width: 250px;
+  height: 35px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  background: #4aaaa5; 
+ }
+
+ /* Homework #2 Code*/
+ @media screen and (max-width: 980px) {
+  body, header {
+    font-size:98%;
+  }
+
+  #main-section {
+    width: 980px;
+  }
+
+  #My_Name {
+    width: 250px;
+    margin-left: 50px;
+    font-size:20px;
+  }
+
+  nav {
+    margin-right: 100px;
+  }
+
+  .main-section {
+    width: 650px;
+    margin-left: 130px;
+  }
+
+  .sidebar, #connect {
+    clear:both;
+    position: relative;
+    width: 270px;
+    margin-left: 300px;
+    object-position: bottom;
+  }
+
+  .bio-image, table image {
+    clear: both;
+    width: 75%;
+    }
+  footer {
+    width: 980px;
+  }
+
+}
+
+@media screen and (max-width: 768px)  {
+    body, header {
+      font-size:98%;
+    }
+  
+    #main-section {
+      width: 768px;
+    }
+  
+    #My_Name {
+      width: 250px;
+      margin-left: 50px;
+      font-size:20px;
+    }
+  
+    nav {
+      margin-right: 100px;
+    }
+  
+    .main-section {
+      width: 650px;
+      margin-left: 65px;
+    }
+  
+    .sidebar, #connect {
+      clear:both;
+      position: relative;
+      width: 270px;
+      margin-left: 250px;
+      object-position: bottom;
+    }
+  
+    .bio-image, table image {
+      clear: both;
+      width: 75%;
+      }
+    footer {
+      width: 768px;
+    }
+  
+  }
+
+
+@media screen and (max-width: 640px) {
+  body, header {
+    position:static;
+    font-size:90%;
+  }
+
+  #main-section {
+    width: 640px;
+  }
+
+  #My_Name {
+    width: 250px;
+    margin-left: 50px;
+    font-size:20px;
+  }
+
+  nav {
+    margin-right: 100px;
+  }
+
+  .main-section {
+    width: 600px;
+    margin-left: 20px;
+  }
+
+  .sidebar, #connect {
+    clear:both;
+    position: relative;
+    width: 270px;
+    margin-left: 200px;
+    object-position: bottom;
+  }
+
+  .bio-image, {
+    clear: both;
+    width: 75%;
+    }
+  footer {
+    width: 640px;
+  }
+  #portfolio-image {
+    width: 200px;
+    height: auto;
+    margin:35px;
+    border: 1px solid #dddddd;
+   }
+  
+   #project{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 35px;
+    width: 200px;
+    height: 35px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+    background: #4aaaa5; 
+   }
+
+}
+
