@@ -304,6 +304,7 @@ body  {
     margin-top: 0px;
     background: #ffffff;
     position: static;
+    border-bottom: 1.5px solid#dddddd;
     width: 100%;
     margin: 0px;
   }
